@@ -1,0 +1,65 @@
+html , body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 10% 60% 30%;
+}
+
+#nav {
+    background-color: #465639;
+}
+
+#search {
+    border-color: #4f6040;
+}
+
+#options {
+    padding-left: 180px;
+}
+
+#up {
+    background-color: #56653e;
+}
+
+#center {
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#center-left {
+    background-color:#465639 ;
+}
+
+#center-right {
+    background-color:#465639 ;
+}
+
+#bottom {
+    background-color: #465639;
+}
+
+#bottom {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    background-color: #788b6b;
+    /* opacity: 40%; */
+    width: 20%;
+    border-radius: 15px;
+}
+
+#img {
+    height: 150px;
+    top: -55px;
+    right: 1px;
+}

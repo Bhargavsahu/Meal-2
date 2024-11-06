@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+    <div id="main">
+     <div class="flex justify-between py-5 px-36 items-center text-white" id="nav">
+        <div id="title" class="text-2xl">FOOD</div>
+        <div class="flex justify-between" id="options">
+            <h3 class="px-8">Calendar</h3>
+            <h3 class="px-8">Recipies</h3>
+            <h3 class="px-8">Groceries</h3>
+            <!-- <h3 class="px-8">Profile</h3> -->
+        </div>
+        <div id="cart" class="flex text-xl">
+            <div id="search" class="flex border-2 rounded-2xl px-3 items-center">
+            <i class="ri-search-line"></i>    
+            <input type="text" placeholder="search" class="px-2 bg-transparent pb-1 text-base focus:outline-none">
+            </div>
+            <i class="ri-user-line px-2 text-xl"></i>
+            <i class="ri-shopping-cart-2-line px-2 text-xl"></i>
+        </div>
+     </div>
+     <div id="center">
+        <div id="center-left" class="px-36 py-10 ">
+            <div id="up" class="rounded-2xl px-4 py-1 w-fit font-bold text-white">
+                CHECKING THE PROXY!
+                <i class="ri-loader-2-line"></i>
+            </div>
+            <div id="text" class="py-5 text-white">
+                <h1 class="text-5xl font-bold text-white">Taste the best that <br> surprises you</h1>
+                <h4 class="py-8 text-white opacity-75">An effective advertising slogan. It gives an accurate picture of <br> what your fast food buisness is all about.</h4>
+                <div id="prices" class="flex text-base">
+                    <h1 class="pr-5">$15.99</h1>
+                    <h1 class="pr-5 line-through opacity-50">$25.99</h1>
+                </div>
+            </div>
+            <div id="buttons" class="text-white py-4 flex gap-5">
+                <button class="border-x border-y rounded-3xl py-2 px-8 bg-red-500 border-red-500 hover:bg-white hover:text-black hover:border-white">Start planning</button>
+                <button class="border-x border-y rounded-full py-2 px-8 hover:bg-white hover:text-black">Contact Mentor</button>
+            </div>
+        </div>
+        <div id="center-right" class="px-20">
+            <img class="object-cover object-center h-5/6" src="./image_2024-11-06_233851071-removebg-preview.png" alt="">
+        </div>
+     </div>
+     <div id="bottom" class="flex px-24">
+        <div class="card h-4/6 px-4 py-7 text-white font-bold">
+            <h1>Breakfast</h1>
+            <h1 class="text-xs opacity-75">in text</h1>
+            <h1 class="py-2">$15.99</h1>
+            <div class="flex justify-end text-xs items-center">
+                <h1>2.3K reviews 4.5</h1><i class="ri-star-line"></i>
+            </div>
+            <img id="img" class="absolute" src="./image_2024-11-06_233851071-removebg-preview.png" alt="">
+        </div>
+        <div class="card h-4/6 px-4 py-7 text-white font-bold">
+            <h1>Lunch</h1>
+            <h1 class="text-xs opacity-75">in text</h1>
+            <h1 class="py-2">$15.99</h1>
+            <div class="flex justify-end text-xs items-center">
+                <h1>2.3K reviews 4.5</h1><i class="ri-star-line"></i>
+            </div>
+            <img id="img" class="absolute" src="./image_2024-11-06_233851071-removebg-preview.png" alt="">
+        </div>
+        <div class="card h-4/6 px-4 py-7 text-white font-bold">
+            <h1>snacks</h1>
+            <h1 class="text-xs opacity-75">in text</h1>
+            <h1 class="py-2">$15.99</h1>
+            <div class="flex justify-end text-xs items-center">
+                <h1>2.3K reviews 4.5</h1><i class="ri-star-line"></i>
+            </div>
+            <img id="img" class="absolute" src="./image_2024-11-06_233851071-removebg-preview.png" alt="">
+        </div>
+        <div class="card h-4/6 px-4 py-7 text-white font-bold">
+            <h1>Dinner</h1>
+            <h1 class="text-xs opacity-75">in text</h1>
+            <h1 class="py-2">$15.99</h1>
+            <div class="flex justify-end text-xs items-center">
+                <h1>2.3K reviews 4.5</h1><i class="ri-star-line"></i>
+            </div>
+            <img id="img" class="absolute" src="./image_2024-11-06_233851071-removebg-preview.png" alt="">
+        </div>
+     </div>
+    </div>
+</body>
+</html>
